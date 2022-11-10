@@ -1,0 +1,30 @@
+button {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  border-radius: 10px;
+}
+.button-getstarted {
+  font-size: 17px;
+}
+.button-getstarted--small {
+  flex-basis: 211px;
+  min-height: 60px;
+  color: #fff;
+}
+.about-text {
+  padding-top: 30px;
+  max-width: 459px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: -0.625263px;
+  color: #696871;
+}

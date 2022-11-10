@@ -1,0 +1,7 @@
+.logos {
+  padding-top: 100px;
+}
+.logos-container {
+  display: flex;
+  justify-content: space-between;
+}

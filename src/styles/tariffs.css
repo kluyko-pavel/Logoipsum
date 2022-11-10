@@ -1,0 +1,122 @@
+.tariffs {
+  padding: 150px 0 158px 0;
+}
+
+.container-tariffs-switcher {
+  max-width: 1141px;
+  display: flex;
+  justify-content: space-between;
+}
+.tariffs__slogan {
+  flex-basis: 523px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 70px;
+  letter-spacing: -1.87579px;
+  color: #19191b;
+}
+.tariffs__switcher {
+  flex-basis: 344px;
+  min-height: 65px;
+  align-self: center;
+  background-color: #f7f7fb;
+  border-radius: 10px;
+  display: flex;
+}
+.tariffs__switcher-button {
+  padding: 0;
+  background-color: #f7f7fb;
+  font-size: 16px;
+  letter-spacing: -0.500211px;
+  color: #19191b;
+  flex-basis: 172px;
+}
+.tariffs__switcher-button--pressed {
+  margin: 5px 6px;
+  color: #ffff;
+  background-color: #5454d4;
+  border-radius: 10px 0 0 10px;
+}
+.container-tariffs-plans {
+  padding-top: 82px;
+  display: flex;
+  justify-content: space-between;
+  min-height: 622px;
+  align-items: center;
+}
+.tariffs-plan {
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  flex-basis: 330px;
+  padding: 34px 0 27px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.tariffs-plan__attachments-tarif {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -0.562737px;
+  color: #696871;
+}
+.tariffs-plan__attachments-cost {
+  margin-top: 22px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 56px;
+  letter-spacing: -1.03448px;
+  color: #1d293f;
+}
+.tariffs-plan__attachments-cost-free {
+  padding-bottom: 11px;
+}
+.tariffs-plan__attachments-cost-month {
+  font-size: 28px;
+}
+.tariffs-plan__attachments-inclusion {
+  margin-top: 28px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 50px;
+  letter-spacing: -0.531474px;
+  color: #696871;
+}
+.tariffs-plan__button {
+  margin-top: 36px;
+  width: 86.4%;
+  min-height: 60px;
+  background-color: #ffffff;
+  border: 1px solid #eae9f2;
+  color: #5454d4;
+}
+.tariffs-plan--focused {
+  background-color: #ff7143;
+  flex-basis: 376px;
+  align-self: stretch;
+  padding: 50px 0 43px 0;
+}
+.tariffs-plan__attachments-tarif--focused {
+  color: #ffffffb2;
+}
+.tariffs-plan__attachments-cost--focused {
+  color: #ffffff;
+}
+.tariffs-plan__attachments-inclusion--focused {
+  color: #ffffff;
+}
+.tariffs-plan__button--focused {
+  width: 80%;
+  background-color: #9f3919;
+  color: #ffffff;
+  border: none;
+}

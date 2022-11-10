@@ -1,0 +1,37 @@
+.index-metrics {
+  padding-top: 150px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+}
+
+.index-metrics-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.index-metrics__content {
+  margin-top: 122px;
+  flex-basis: 556px;
+}
+.index-metrics__title {
+  font-size: 50px;
+  letter-spacing: -1.56316px;
+  color: #19191b;
+}
+
+.index-metrics__link {
+  display: inline-block;
+  margin-top: 30px;
+  text-decoration: none;
+  font-size: 17px;
+  line-height: 22px;
+  letter-spacing: -0.531474px;
+  color: #5454d4;
+}
+.metrics-container {
+  padding-top: 83px;
+}
+.image-human {
+  margin-right: 100px;
+}
